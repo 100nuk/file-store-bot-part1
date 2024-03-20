@@ -27,15 +27,15 @@ API_HASH = environ.get("API_HASH", "0ff15ae2153bd8e03b48cb293010bc6a")
 ADMINS = int(environ.get("ADMINS", "6287591671"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://thahero196:lP9Fb6aKL7T0y47U@cluster0.whs2bkj.mongodb.net/?retryWrites=true&w=majority")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "mongodb+srv://rani828719:sVyRWZOrUzIWNfHp@cluster0.zodktob.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://cccc:cccc@cluster0.7xrqyz3.mongodb.net/?retryWrites=true&w=majority")
+CDB_NAME = environ.get("CDB_NAME", "cloneKK_BOTS")
+DB_URI = environ.get("DB_URI", "mongodb+srv://eeee:eeee@cluster0.wb3ywgn.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = environ.get("DB_NAME", "KK_BOTS")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6313485501:AAGURPPXiS4BPUsRPDzYM5H66KWiZCn_7Cw")
-BOT_USERNAME = environ.get("BOT_USERNAME", "what_if_dubb_bot") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "6791864197:AAFSaY2NDytPJn-_Mkez00V7z5o-i7EPcb8")
+BOT_USERNAME = environ.get("BOT_USERNAME", "Files_Store_V3_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -44,7 +44,7 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002022119783"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002105074734')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001747480168')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -63,10 +63,10 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 # File Stream Config
 class Var(object):
     MULTI_CLIENT = False
-    name = str(getenv('name', 'filetolinkvjbot'))
+    name = str(getenv('name', 'Files_Store_V3_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002016613151'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001747480168'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
@@ -81,9 +81,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "https://file-store-bot-part1-hero.onrender.com"
+        URL = "https://file-sstor-d6da3275fa5b.herokuapp.com/"
     else:
-        URL = "https://file-store-bot-part1-hero.onrender.com"
+        URL = "https://file-sstor-d6da3275fa5b.herokuapp.com/"
 
 
 
