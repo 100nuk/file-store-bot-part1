@@ -20,9 +20,9 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot  @movie_a1
+# Ask Doubt on telegram @R_KOHLI
 
 
 def get_size(size):
@@ -41,9 +41,9 @@ async def delete_after_delay(message: Message, delay):
     await asyncio.sleep(AUTO_DELETE_TIME)
     await message.delete()
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ0
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot  @movie_a1
+# Ask Doubt on telegram @R_KOHLI
 
 
 @Client.on_message(filters.command("start") & filters.incoming)
@@ -53,10 +53,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton( '💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=KiYYZ5mByFO-O_fl')
+            InlineKeyboardButton( '💝 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴʟs', url='https://t.me/movie_a1')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/what_if_season_2_hindi_dubb')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/movie_on1'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/KK_BOTS')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
@@ -222,9 +222,9 @@ async def start(client, message):
                      [
                          InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')],
                      [
-                         InlineKeyboardButton('🤖 WANT FILE AGAIN ', url='https://t.me/what_if_season_2_hindi_dubb')],  
+                         InlineKeyboardButton('🤖 WANT FILE AGAIN ', url='https://t.me/KK_BOTS')],  
                      [
-                         InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl')
+                         InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/movie_on1')
                      ]
                     ]
                 )
@@ -260,9 +260,9 @@ async def start(client, message):
         protect_content=True if pre == 'filep' else False,
         )
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot  @movie_a1
+# Ask Doubt on telegram @R_KOHLI
 
 @Client.on_message(filters.command('api') & filters.private)
 async def shortener_api_handler(client, m: Message):
@@ -324,10 +324,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton( '💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=KiYYZ5mByFO-O_fl')
+            InlineKeyboardButton( '💝 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴʟs', url='https://t.me/movie_a1')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/what_if_season_2_hindi_dubb')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/movie_on1'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/KK_BOTS')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
@@ -351,9 +351,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot  @movie_a1
+# Ask Doubt on telegram @R_KOHLI
     
     elif query.data == "clone":
         buttons = [[
@@ -428,9 +428,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                 [
                                                     InlineKeyboardButton('🖥️ Watch online 🖥️', url= stream)],  # web stream Link
                                                [
-                                                    InlineKeyboardButton('🤖 WANT AGAIN  FILE', url='https://t.me/what_if_season_2_hindi_dubb')],
+                                                    InlineKeyboardButton('🤖 WANT AGAIN  FILE', url='https://t.me/KK_BOTS')],
                                                [
-                                                    InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl')]
+                                                    InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/movie_on1')]
                                                   ]
             )
             ) 
