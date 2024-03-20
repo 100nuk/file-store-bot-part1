@@ -10,7 +10,7 @@ from config import DB_URI as MONGO_URL
 from pymongo import MongoClient
 
 mongo_client = MongoClient(MONGO_URL)
-mongo_db = mongo_client["cloned_vjbotz"]
+mongo_db = mongo_client["cloned_KK_BOTS"]
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -43,7 +43,7 @@ async def verupikkals(bot, message):
     owner = mongo_db.bots.find_one({'bot_id': id})
     ownerid = int(owner['user_id'])
     if ownerid != message.from_user.id:
-        await message.reply_text("ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ❗ Get Access [Get Here](https://https://t.me/what_if_season_2_hindi_dubb)")
+        await message.reply_text("ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅ❗ Get Access [Get Here](https://https://t.me/KK_BOTS)")
         return
     users = await db.get_all_users()
     b_msg = message.reply_to_message
