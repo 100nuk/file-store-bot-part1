@@ -24,7 +24,7 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "22672907"))
 API_HASH = environ.get("API_HASH", "0ff15ae2153bd8e03b48cb293010bc6a")
-ADMINS = int(environ.get("ADMINS", "6287591671"))
+ADMINS = int(environ.get("ADMINS", "5808599296"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://cccc:cccc@cluster0.7xrqyz3.mongodb.net/?retryWrites=true&w=majority")
@@ -34,7 +34,7 @@ DB_NAME = environ.get("DB_NAME", "KK_BOTS")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6791864197:AAFSaY2NDytPJn-_Mkez00V7z5o-i7EPcb8")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_USERNAME = environ.get("BOT_USERNAME", "Files_Store_V3_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg')).split() # Bot Start Picture
 
@@ -43,12 +43,12 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002022119783"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001747480168')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001747480168"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001812305626')).split()]
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot @movie_a1
+# Ask Doubt on telegram @R_KOHLI
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
