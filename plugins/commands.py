@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             stream = f"{Var.URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
             download = f"{Var.URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
 
-            xo = await query.message.reply_text(f'🔐')
+            xo = await query.message.reply_sticker("CAACAgUAAxkBAAEDbDplJjQc2YTF2mFOhWL2gY_SBfQMiwACzwUAAvqWsVQeji_NycEEEzAE")
             await asyncio.sleep(1)
             await xo.delete()
 
