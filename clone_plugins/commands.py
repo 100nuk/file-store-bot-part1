@@ -19,13 +19,13 @@ from config import DB_URI as MONGO_URL
 from pymongo import MongoClient
 
 mongo_client = MongoClient(MONGO_URL)
-mongo_db = mongo_client["cloned_vjbotz"]
+mongo_db = mongo_client["cloned_KK_BOTS"]
 
 logger = logging.getLogger(__name__)
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot  @movie_a1
+# Ask Doubt on telegram @R_KOHLI
 
 def get_size(size):
     """Get size in readable format"""
@@ -38,9 +38,9 @@ def get_size(size):
         size /= 1024.0
     return "%.2f %s" % (size, units[i])
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot  @movie_a1
+# Ask Doubt on telegram @R_KOHLI
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
@@ -48,7 +48,7 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=JmIkr6a16LRXUaIe')
+            InlineKeyboardButton('💝 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴʟs', url='https://t.me/movie_a1')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[
@@ -138,9 +138,9 @@ async def shortener_api_handler(client, m: Message):
     else:
         await m.reply("You are not authorized to use this command.")
 
-# Don't Remove Credit Tg - @Avatar_last_airbender_3_hindi
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@sastamarvel01?si=JmIkr6a16LRXUaIe
-# Ask Doubt on telegram @hero_botss
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot  @movie_a1
+# Ask Doubt on telegram @R_KOHLI
 
 @Client.on_message(filters.command("base_site") & filters.private)
 async def base_site_handler(client, m: Message):
@@ -160,9 +160,9 @@ async def base_site_handler(client, m: Message):
     else:
         await m.reply("You are not authorized to use this command.")
 
-# Don't Remove Credit Tg - @Avatar_last_airbender_3_hindi
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@sastamarvel01?si=JmIkr6a16LRXUaIe
-# Ask Doubt on telegram @hero_botss
+# Don't Remove Credit Tg - @KK_BOTS
+# Subscribe Channel For Amazing Bot  @movie_a1
+# Ask Doubt on telegram @R_KOHLI
 
 
 @Client.on_callback_query()
@@ -171,7 +171,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=JmIkr6a16LRXUaIe')
+            InlineKeyboardButton('💝 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴʟs', url='https://t.me/movie_a1')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[
