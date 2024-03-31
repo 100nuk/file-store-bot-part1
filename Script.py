@@ -8,7 +8,7 @@ class script(object):
     
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
     
-Qury: more movie,anime,web-serires in hindi [Get Here](url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}"))
+Qury: more movie,anime,web-serires in hindi [Get Here](https://t.me/movie_on1)
 
 Important : join befor download/save other wish ban☠ [subscribe](https://t.me/movie_a1) 
 
